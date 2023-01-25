@@ -41,7 +41,7 @@ public class AddActivity extends AppCompatActivity {
                 dbHelper.addUserDetail(etName.getText().toString(),etGenre.getText().toString(), etSinopsis.getText().toString());
                 etName.setText("");
                 etGenre.setText("");
-                Toast.makeText(AddActivity.this, "Simpan berhasil!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(AddActivity.this, "Yeay Simpan berhasil!", Toast.LENGTH_SHORT).show();
             }
         });
 
